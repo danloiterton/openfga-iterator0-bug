@@ -1,0 +1,6 @@
+ [
+    { "user": "user:A", "relation": "member", "object": "team:myorg-TM01" },
+    { "user": "user:A", "relation": "member", "object": "team:myorg-TM02" },
+    { "user": "user:A", "relation": "member", "object": "team:myorg-all" },
+    { "user": "team:myorg-all#member", "relation": "member", "object": "project:C" }
+]

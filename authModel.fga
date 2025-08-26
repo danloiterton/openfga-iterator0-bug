@@ -1,0 +1,17 @@
+model
+  schema 1.1
+
+# USER: The primary relation in all other types
+type user
+
+# TEAM: groups of users within an organisation
+type team
+  relations
+    define manager: [user] 
+    define member: [user] or manager
+  
+# PROJECT: projects within an organisation
+type project
+  relations
+    define member: [user, team#member] 
+
