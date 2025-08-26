@@ -7,7 +7,7 @@ type user
 # TEAM: groups of users within an organisation
 type team
   relations
-    define manager: [user] 
+    define manager: [user] # removing this definition fixes the error
     define member: [user] or manager
   
 # PROJECT: projects within an organisation

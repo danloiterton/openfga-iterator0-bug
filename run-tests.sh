@@ -21,6 +21,6 @@ echo "➕ Writing tuples..."
 fga tuple write --file tuples.json
 
 echo "🧪 Running tests..."
-RESULT=$(fga query check user:A member project:C)
+RESULT=$(fga query check user:a member project:a)
 echo "Check result:"
 echo "$RESULT"

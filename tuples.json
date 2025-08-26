@@ -1,6 +1,6 @@
  [
-    { "user": "user:A", "relation": "member", "object": "team:myorg-TM01" },
-    { "user": "user:A", "relation": "member", "object": "team:myorg-TM02" },
-    { "user": "user:A", "relation": "member", "object": "team:myorg-all" },
-    { "user": "team:myorg-all#member", "relation": "member", "object": "project:C" }
+    { "user": "user:a", "relation": "member", "object": "team:a" },
+    { "user": "user:a", "relation": "member", "object": "team:b" },
+    { "user": "user:a", "relation": "member", "object": "team:C" },
+    { "user": "team:a#member", "relation": "member", "object": "project:a" }
 ]
